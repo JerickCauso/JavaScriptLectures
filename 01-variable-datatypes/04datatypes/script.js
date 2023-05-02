@@ -1,42 +1,42 @@
 //String
-const firstName = "Jerick";
+const firstName = "Ryan";
 // console.log(firstName);
 
-//Number
+// Number
 const age = 30;
 const temp = 98.9;
 
-//Boolean
+// Boolean
 const hasKids = true;
 
-//Null
+// Null
 const aptNumber = null;
 
 // MDN Reference
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
 
-//undefined
+// Undefined
 // let score;
 // console.log(score);
 
 const score = undefined;
 
-//Symbol
+// Symbol
 const id = Symbol("id");
 
-//BigInt
+// BigInt
 const n = 31415927538703238462n;
 
-//Reference Types
+// Reference Types
 
 const numbers = [1, 2, 3, 4];
 
 const person = {
-  fname: "Jerick",
+  fname: "Ryan",
 };
 
 function sayHello() {
   console.log("Hello");
 }
-
-const output = person.fname;
+const output = sayHello;
 console.log(output, typeof output);

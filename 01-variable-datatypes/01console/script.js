@@ -1,28 +1,26 @@
-// alert("Hello from JS File");
+// alert("Hello from JS file");
 
 //log a number
 console.log(100);
 
-//log string
+// log string
 console.log("Hello World");
 
-//log a variable
-
 //log multiple values
-console.log(20, "HEllo", true);
+console.log(20, "Hello", true);
 
-//log a variable
+// log a variable
 const x = 100;
 console.log(x);
 
 //console error & warning
-console.log("Alert");
-console.log("Warning");
+console.error("Alert");
+console.warn("Warning");
 
-//log object as a tablw
-console.table({ name: "Ryan", email: "jergcauso@gmail.com" });
+//log object as a table
+console.table({ name: "Ryan", email: "ryan@gmail.com" });
 
-//group console commands
+// Group Console commands
 console.group("simple");
 console.log(x);
 console.error("Alert");
